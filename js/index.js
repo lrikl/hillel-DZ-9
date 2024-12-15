@@ -8,7 +8,7 @@ if (!userNumbInput?.trim()) {
 else {
     const userNumb = Number(userNumbInput);
     
-    if (!Number.isInteger(userNumb)) {
+    if (!Number.isInteger(userNumb)) {  // перевірка на ціле число та NaN 
         console.log("Error! Incorrect number");
     }
     else if (userNumb <= 0) {
