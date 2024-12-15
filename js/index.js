@@ -3,7 +3,7 @@
 const userNumbInput = prompt("Введіть ціле число");
 
 if (!userNumbInput?.trim()) {
-    console.log("OK! Good bye");
+    console.log("OK! Пока");
 }
 else {
     const userNumb = Number(userNumbInput);
