@@ -8,7 +8,7 @@ if (!userNumbInput?.trim()) {
 else {
     const userNumb = Number(userNumbInput);
     
-    if (isNaN(userNumb) || !Number.isInteger(userNumb)) {
+    if (!Number.isInteger(userNumb)) {
         console.log("Error! Incorrect number");
     }
     else if (userNumb <= 0) {
